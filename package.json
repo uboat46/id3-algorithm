@@ -1,6 +1,6 @@
 {
   "name": "id3-algorithm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "id3-algorithm implemented in js",
   "main": "dist/id3-algorithm.js",
   "scripts": {
