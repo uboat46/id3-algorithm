@@ -3,9 +3,8 @@
 npm package to use id3-algorithm
 
 ## Download
-)
 
-id3-algorithm is released under the [MIT license](https://raw.githubusercontent.com/uboat46/id3-algorithm/LICENSE) & supports modern environments.<br>
+id3-algorithm is released under the [MIT license](https://raw.githubusercontent.com/uboat46/id3-algorithm/master/LICENSE) & supports modern environments.<br>
 
 ## Installation
 
