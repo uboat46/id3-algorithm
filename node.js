@@ -2,7 +2,7 @@
  * A simple node.
  * @author uboat46
  */
-export default class Node {
+module.exports = class Node {
   /**
   * Constructor for a new Node.
   * @param {String} title - title of a node

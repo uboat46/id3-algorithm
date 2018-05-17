@@ -1,11 +1,11 @@
-import Tree from './tree';
-import Node from './node'
+var Tree = require('./tree');
+var Node = require('./node');
 
 /**
  * dfs class
  * @author uboat46
  */
-export default class DFS {
+module.exports = class DFS {
   /**
   * Constructor a new dfs class.
   * @param {Tree} tree - tree in which to perform dfs

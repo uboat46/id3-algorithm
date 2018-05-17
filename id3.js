@@ -1,12 +1,12 @@
-import Table from './table';
-import Tree from './tree';
-import Node from './node'
+var Table = require('./table');
+var Tree = require('./tree');
+var Node = require('./node');
 
 /**
  * An id3.
  * @author uboat46
  */
-export default class id3 {
+module.exports = class id3 {
   /**
   * Constructor for a new id3.
   * @param {Table} table - table to create tree

@@ -1,4 +1,4 @@
-import ID3A from './id3-algorithm';
+var ID3A = require('./id3-algorithm');
 
 let test = new ID3A({
   titles: ['cielo', 'barometro', 'viento'],

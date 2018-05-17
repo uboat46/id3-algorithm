@@ -1,8 +1,8 @@
 {
   "name": "id3-algorithm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "id3-algorithm implemented in js",
-  "main": "dist/id3-algorithm.js",
+  "main": "src/id3-algorithm.js",
   "scripts": {
     "test": "node dist/test.js",
     "build": "rimraf dist/ && babel ./src/ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",

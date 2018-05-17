@@ -1,10 +1,10 @@
-import Node from './node';
+var Node = require('./node');
 
 /**
  * A simple node tree.
  * @author uboat46
  */
-export default class Tree {
+module.exports = class Tree {
   /**
   * Constructor for a new Tree.
   * @param {Node} head - head of a tree

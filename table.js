@@ -2,7 +2,7 @@
  * A criteria table.
  * @author uboat46
  */
-export default class Table {
+module.exports = class Table {
   /**
   * Constructor for a new table.
   * @param {Array} titles - titles of a table

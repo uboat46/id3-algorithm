@@ -1,12 +1,12 @@
-import Table from './table';
-import DFS from './dfs';
-import id3 from './id3';
+var Table = require('./table');
+var DFS = require('./dfs');
+var id3  =  require('./id3');
 
 /**
  * id3-algorithm class
  * @author uboat46
  */
-export default class ID3A {
+module.exports = class ID3A {
   /**
   * Constructor a new id3-algorithm class.
   * @param {Obj} options - options for a new ID3A
