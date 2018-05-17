@@ -2,14 +2,15 @@
   "name": "id3-algorithm",
   "version": "1.0.0",
   "description": "id3-algorithm implemented in js",
-  "main": "dist/test.js",
+  "main": "dist/id3-algorithm.js",
   "scripts": {
     "test": "node dist/test.js",
-    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
-    "start": "npm run build && node dist/test.js"
+    "build": "rimraf dist/ && babel ./src/ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && node dist/id3-algorithm.js",
+    "prepublish": "npm run build"
   },
   "author": "uboat46",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
