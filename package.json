@@ -1,6 +1,6 @@
 {
   "name": "id3-algorithm",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "id3-algorithm implemented in js",
   "main": "src/id3-algorithm.js",
   "scripts": {
